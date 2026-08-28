@@ -3,36 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LALOWEHKLAGE</title>
+    <title>Projeto para Alura</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+        }
+
+        header, footer {
+            text-align: center;
+            background: #333;
+            color: white;
+            padding: 1rem;
+        }
+
+        nav {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* 3 colunas */
+            gap: 20px;
+            padding: 20px;
+        }
+
+        nav a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #fff;
+            border: 2px solid #333;
+            border-radius: 8px;
+            padding: 30px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            background: #333;
+            color: #fff;
+        }
+
+        main {
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>LALOWEHKLAGE</h1>
-    </header>
     <nav>
-        <a href="https://mail.google.com/mail/?authuser=0" target="_blank">G-mail</a>
-        <a href="https://classroom.google.com/u/0/h" target="_blank">Classroom</a>
-        <a href="https://cursos.alura.com.br/dashboard" target="_blank">Alura</a>
-        <a href="https://quizizz.com/admin" target="_blank">Quizizz</a>
-        <a href="https://github.com/" target="_blank">GitHub</a>
-        <a href="https://vscode.dev/" target="_blank">VS Code</a>
-        <a href="https://editor.p5js.org/" target="_blank">P5.JS</a>
-
-
+        <a href="https://mail.google.com/mail/?authuser=0" target="_blank" rel="noopener noreferrer">G-mail</a>
+        <a href="https://classroom.google.com/u/0/h" target="_blank" rel="noopener noreferrer">Classroom</a>
+        <a href="https://cursos.alura.com.br/dashboard" target="_blank" rel="noopener noreferrer">Alura</a>
+        <a href="https://quizizz.com/admin" target="_blank" rel="noopener noreferrer">Quizizz</a>
+        <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://vscode.dev/" target="_blank" rel="noopener noreferrer">VS Code</a>
+        <a href="https://editor.p5js.org/" target="_blank" rel="noopener noreferrer">P5.JS</a>
     </nav>
-    <main>
-        <h2>Nome do Grupo</h2>
-        <p> Aluno 1</p>
-        <p> Aluno 2</p>
-        <p> Aluno 3</p>
-        <p> Aluno 4</p>
-        
-    </main>
 
     <footer>
-        <p>© 2025 LALOWEHKLAGE. Todos os direitos reservados.</p>
+        <p>© 2025 Khaireluna Tech. Todos os direitos reservados.</p>
     </footer>
-    <script src="scripts.js"></script>
 </body>
 </html>
